@@ -1,0 +1,7 @@
+echo "# It-s-up-to-me-know" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:HurtzDonut559/It-s-up-to-me-know.git
+git push -u origin main
